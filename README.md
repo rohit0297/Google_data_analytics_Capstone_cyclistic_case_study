@@ -41,5 +41,8 @@ WE will be using Cyclistic's historical trip data to analyze and identify trends
 Due to limitations of Excel/ google sheet to handle the large amount of data, We have used BigQuery to combine the various datasets into one dataset and clean it.
 
 #### Data Merging
-We merged 12 csv files 
+We merged 12 csv files are uploaded in the dataset 'tripdata'. One more table created named 'combined_tripdata', merged all 12 csv files and moved into it. The 'combined_tripdata' contains 5,066,388 rows of data for past 4 quarters.
+
+#### Exploratory Data Analysis
+
 
