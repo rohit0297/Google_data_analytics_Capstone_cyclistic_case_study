@@ -26,6 +26,8 @@ Tableau / Power BI - Dashboards & storytelling
 
 ## Prepare - Collect & Understand the data
 #### Data Source: Public Cyclistic trip data [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+WE will be using Cyclistic's historical trip data to analyze and identify trends from April 2024 to March 2025. This is a public data which can be used to explore how different customer types are using Cyclistic bikes.
 #### Data Structure:
 *  Trip start & end times
 *  Ride duration
@@ -36,4 +38,8 @@ Tableau / Power BI - Dashboards & storytelling
 *  External factors like weather or city events are not considered in the dataset.
 
 ## Process - Clean & Prepare the Data
-#### Steps taken:
+Due to limitations of Excel/ google sheet to handle the large amount of data, We have used BigQuery to combine the various datasets into one dataset and clean it.
+
+#### Data Merging
+We merged 12 csv files 
+
