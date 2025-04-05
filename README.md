@@ -47,7 +47,11 @@ We merged 12 csv files are uploaded in the dataset 'tripdata'. One more table cr
 We are exploring the data, finding the inconsistencies and cleaning the data.
 
 #### Observation
-Table below shows all column names and their data types. Here "ride_id" column is our primary key.
-  ![Image](https://github.com/user-attachments/assets/a10b1998-3570-45bf-a1e0-06aa47dc1833)
+1.  Table below shows all column names and their data types. Here __ride_id__ column is our primary key.
+
+![Image](https://github.com/user-attachments/assets/a10b1998-3570-45bf-a1e0-06aa47dc1833)
+
+2.  The following table shows number of __null_values__ in each column.
+
 
 
