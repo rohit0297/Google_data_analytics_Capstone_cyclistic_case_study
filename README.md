@@ -41,8 +41,13 @@ WE will be using Cyclistic's historical trip data to analyze and identify trends
 Due to limitations of Excel/ google sheet to handle the large amount of data, We have used BigQuery to combine the various datasets into one dataset and clean it.
 
 #### Data Merging
-We merged 12 csv files are uploaded in the dataset 'tripdata'. One more table created named 'combined_tripdata', merged all 12 csv files and moved into it. The 'combined_tripdata' contains 5,066,388 rows of data for past 4 quarters.
+We merged 12 csv files are uploaded in the dataset 'tripdata'. One more table created named 'combined_tripdata', merged all 12 csv files and moved into it. The 'combined_tripdata' contains 5,066,388 rows of data for past 4 quarters. [Data Merging](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_merging.sql)
 
 #### Exploratory Data Analysis
+We are exploring the data, finding the inconsistencies and cleaning the data.
+
+#### Observation
+Table below shows all column names and their data types. Here "ride_id" column is our primary key.
+  ![image]()
 
 
