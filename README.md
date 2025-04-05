@@ -48,6 +48,6 @@ We are exploring the data, finding the inconsistencies and cleaning the data.
 
 #### Observation
 Table below shows all column names and their data types. Here "ride_id" column is our primary key.
-  ![image]()
+  ![Image](https://github.com/user-attachments/assets/a10b1998-3570-45bf-a1e0-06aa47dc1833)
 
 
