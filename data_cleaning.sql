@@ -21,9 +21,7 @@ CREATE TABLE IF NOT EXISTS `cyclistic-case-study-455810.tripdata.cleaned_combine
   WHERE
     start_station_name IS NOT NULL AND  --
     end_station_name IS NOT NULL AND    --
-    start_lat IS NOT NULL AND           -- Making sure only the cleaned data is being stored in the new table
-    start_lng IS NOT NULL AND           --
-    end_lat IS NOT NULL AND             --  
+    end_lat IS NOT NULL AND             --  Making sure only the cleaned data is being stored in the new table
     end_lng IS NOT NULL AND             --
     TIMESTAMP_DIFF(ended_at, started_at, MINUTE) >1 AND
     TIMESTAMP_DIFF(ended_at, started_at, MINUTE) < 1440 
