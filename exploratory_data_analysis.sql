@@ -21,3 +21,11 @@ SELECT
   COUNTIF(end_lng IS NULL) AS end_lng_nulls,
   COUNTIF(member_casual IS NULL) AS member_casual_nulls
 FROM `cyclistic-case-study-455810.tripdata.combined_tripdata`;
+
+-- checking for duplicate rows
+
+SELECT 
+  COUNT(ride_id) - COUNT(DISTINCT ride_id) AS duplicate_rows
+FROM
+  `cyclistic-case-study-455810.tripdata.combined_tripdata`;
+
