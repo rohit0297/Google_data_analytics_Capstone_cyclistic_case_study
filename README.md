@@ -53,5 +53,38 @@ We are exploring the data, finding the inconsistencies and cleaning the data. [E
 
 2.  The following table shows number of __null_values__ in each column.
 
+![image](https://github.com/user-attachments/assets/d2ef39d0-686a-452f-9b66-0d418e720dad)
 
+Note that some columns share the same number of missing values, which could indicate that the missing data occurs in the same rows—for example, a station’s name and ID missing together, or latitude and longitude missing for the same ending station.
 
+3.  We noticed __ride_id__ has no null values, so we checked for if any duplicates are present.
+
+![image](https://github.com/user-attachments/assets/cb8d9419-60db-407d-b1fd-d7579e04ceab)
+
+No duplicates were found.
+
+4.  __ride_id__ values lenght is 16 so there is no need to clean it.
+
+5.  Found 3 unique types of bikes(__rideable_type__) in the data.
+
+6.  The started_at and ended_at columns indicate the trip's start and end times in the format YYYY-MM-DD hh:mm:ss UTC. A new column, ride_length, can be created to calculate the total trip duration. There are __6096__ trips that last more than a day and __112927__ trips that are either shorter than a minute or have an end time earlier than the start time—these need to be removed. Additionally, the day_of_week and month columns can be useful for analyzing trip patterns across different times of the year.
+
+7.  A total of __961,100__ rows with missing __start_station_name__ and __start_station_id__, and __984,416__ rows missing both __end_station_name__ and __end_station_id__, need to be removed from the dataset.
+
+8.  __member_casual__ column has 2 unique values as member or casual riders.
+
+![image](https://github.com/user-attachments/assets/78509f9b-a6c6-4b75-ae51-22b9c9064284)
+
+9.  The __start_station_id__ and __end_station_id__ columns can be dropped as they don't contribute meaningful insights for the current analysis. While the longitude and latitude columns may not be directly used in the analysis, they can be useful for creating visualizations such as maps.
+
+## Data Cleaning
+
+SQL query's can be found in the [Data Cleaning](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_cleaning.sql).
+
+All rows containing missing values have been removed. Additionally, three new columns—ride_length (trip duration), day_of_week, and month—have been added. Trips lasting less than a minute or longer than a day were excluded, resulting in the removal of a total of 1,562,188 rows during this step.
+
+## Analyze and Share
+
+SQL query's can be found in the [Data Analysis](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_analysis.sql)
+
+Data viz can be accessed from [Tableau]()
