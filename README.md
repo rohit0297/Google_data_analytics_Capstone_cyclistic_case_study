@@ -131,3 +131,13 @@ A similar trend is observed in the ending station locations. Casual riders often
 |Casual riders prefer using bikes throughout the day, with higher usage on weekends during spring and summer, primarily for leisure activities.|In contrast, members tend to ride bikes on weekdays, particularly during commute hours (around 8 a.m. and 5 p.m.), also peaking in spring and summer, indicating a focus on commuting rather than recreational use.|
 |Members ride more frequently, but their trips are shorter, with an average duration about half that of casual riders.|Casual riders have longer trips, traveling twice the duration of members, but they do so less often|
 |Begin and end their trips near universities, residential neighborhoods, and commercial zones.|Begin and conclude their trips near parks, museums, coastal areas, and other recreational destinations.|
+
+## Act
+After identifying the differences between casual and member riders, targeted marketing strategies can be developed to encourage casual riders to become members.
+
+Recommendations:
+1.  Seasonal Marketing Campaigns: Launch campaigns during the spring and summer months at tourist and recreational spots that are popular with casual riders.
+
+2.  Targeted Membership Offers: Since casual riders are most active on weekends and during the warmer months, consider offering seasonal or weekend-only memberships to appeal to their usage patterns.
+
+3.  Incentives for Longer Rides: Given that casual riders tend to use bikes for longer durations, offering discounts for extended rides could encourage both casual riders to extend their trips and entice members to explore longer cycling sessions.
