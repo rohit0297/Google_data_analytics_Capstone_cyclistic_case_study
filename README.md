@@ -88,3 +88,46 @@ All rows containing missing values have been removed. Additionally, three new co
 SQL query's can be found in the [Data Analysis](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_analysis.sql)
 
 Data viz can be accessed from [Tableau](https://public.tableau.com/views/bike_ride_analysis/BikeTypes?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+The data has been properly structured and is ready for analysis. I queried several relevant tables and created visualizations using Tableau to support the analysis.
+__Analyzing Usage Patterns: A Comparison Between Annual Members and Casual Riders of Cyclistic Bikes__
+
+Initially member and casual riders are compared by the types of bikes they are using.
+
+![Bike Types](https://github.com/user-attachments/assets/87e6d166-293f-4925-8751-b97928aa8be0)
+
+Members make up 62.36% of all users, while casual riders account for the remaining 37.64%. The bike type distribution chart reflects percentages based on the total number of rides. Classic bikes are the most commonly used, followed by electric bikes. electric scooters are the least used and are exclusively ridden by casual users.
+
+Next, the number of trips was analyzed based on their distribution across months, days of the week, and hours of the day.
+
+![Total trips per month_day_hour (2)](https://github.com/user-attachments/assets/b3ec42f6-17b3-426c-9416-6ec090bab15d)
+
+__Months__: Member riders maintain consistently high trip volumes throughout the year, with peaks in summer months (May to September). Casual riders show a sharp increase during summer, especially from May to August, indicating strong seasonal behavior. Both groups show a drop in trips during winter (December–February), likely due to colder weather.
+__Days of week__: Members ride more on weekdays (Monday to Friday), especially midweek, indicating commute-based usage. Casual riders prefer weekends (Saturday and Sunday), showing a more recreational or leisure-focused pattern. Both groups see a dip mid-week for casuals and a more even distribution for members across the weekdays.
+__Hours of the day__: Member trips spike during traditional commute times: around 8 AM and 5–6 PM, aligning with a workday schedule. Casual users gradually increase usage through the morning, peaking in the afternoon (2 PM–4 PM), reflecting flexible or leisure activities. Minimal activity is observed during late-night and early morning hours for both groups.
+
+Based on the previous observations, it can be inferred that members likely use bikes for commuting during weekdays, while casual riders tend to use them throughout the day, especially on weekends, primarily for leisure. Both groups show peak activity during the spring and summer months.
+
+A comparison of ride durations was conducted to better understand the differing usage patterns of casual riders and members.
+
+![Average ride duration per month_day_hour](https://github.com/user-attachments/assets/c8436db1-1372-47e6-a029-3ba6133e458f)
+
+It is observed that casual riders tend to have longer ride durations on average compared to members. While the average ride length for members remains relatively consistent throughout the year, week, and day, casual riders show notable variations in their cycling behavior. They tend to take longer trips during spring and summer, on weekends, and between 10 a.m. and 2 p.m., suggesting a more leisure-oriented usage pattern. In contrast, shorter trips occur between 5 a.m. and 8 a.m., possibly aligning with early commuting or shorter recreational rides.
+
+These findings suggest that casual riders travel approximately twice as long as members but do so less frequently. Their longer, less routine rides—especially on weekends and during daytime hours in warmer seasons—indicate a recreational purpose, while members likely use the bikes for commuting with consistent and shorter travel times.
+
+To gain deeper insights into usage differences, the starting and ending station locations were analyzed. By filtering for stations with the highest number of trips, several location-based patterns emerged that help distinguish the riding habits of members and casual users.
+
+![Trips starting locations](https://github.com/user-attachments/assets/3a1b6e0d-d4d1-4410-895d-6901fa0735cb)
+
+Casual riders often begin their trips from stations located near museums, parks, beaches, harbors, and aquariums, indicating a preference for recreational and tourist-friendly areas. In contrast, members typically start their journeys from stations situated near universities, residential neighborhoods, restaurants, hospitals, grocery stores, theaters, schools, banks, factories, train stations, parks, and plazas, suggesting more utilitarian and commute-focused usage.
+
+![Trips ending locations](https://github.com/user-attachments/assets/49fdf9f4-e96a-4b74-9763-4e11b49c0b3d)
+
+A similar trend is observed in the ending station locations. Casual riders often conclude their trips near parks, museums, and other recreational destinations, while members typically end their journeys near universities, residential neighborhoods, and commercial areas. This further supports the conclusion that casual riders primarily use bikes for leisure activities, whereas members rely on them more consistently for daily commuting purposes.
+
+#### Summary
+|Member|Casual|
+|------|------|
+|Casual riders prefer using bikes throughout the day, with higher usage on weekends during spring and summer, primarily for leisure activities.|In contrast, members tend to ride bikes on weekdays, particularly during commute hours (around 8 a.m. and 5 p.m.), also peaking in spring and summer, indicating a focus on commuting rather than recreational use.|
+|Members ride more frequently, but their trips are shorter, with an average duration about half that of casual riders.|Casual riders have longer trips, traveling twice the duration of members, but they do so less often|
+|Begin and end their trips near universities, residential neighborhoods, and commercial zones.|Begin and conclude their trips near parks, museums, coastal areas, and other recreational destinations.|
