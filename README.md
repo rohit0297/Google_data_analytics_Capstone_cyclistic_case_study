@@ -44,7 +44,7 @@ Due to limitations of Excel/ google sheet to handle the large amount of data, We
 We merged 12 csv files are uploaded in the dataset 'tripdata'. One more table created named 'combined_tripdata', merged all 12 csv files and moved into it. The 'combined_tripdata' contains 5,066,388 rows of data for past 4 quarters. [Data Merging](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_merging.sql)
 
 #### Exploratory Data Analysis
-We are exploring the data, finding the inconsistencies and cleaning the data.
+We are exploring the data, finding the inconsistencies and cleaning the data. [Exploratory Data Analysis](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/exploratory_data_analysis.sql)
 
 #### Observation
 1.  Table below shows all column names and their data types. Here __ride_id__ column is our primary key.
