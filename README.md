@@ -87,4 +87,4 @@ All rows containing missing values have been removed. Additionally, three new co
 
 SQL query's can be found in the [Data Analysis](https://github.com/rohit0297/Google_data_analytics_Capstone_cyclistic_case_study/blob/main/data_analysis.sql)
 
-Data viz can be accessed from [Tableau]()
+Data viz can be accessed from [Tableau](https://public.tableau.com/views/bike_ride_analysis/BikeTypes?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
