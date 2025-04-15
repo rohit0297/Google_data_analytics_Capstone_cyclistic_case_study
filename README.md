@@ -37,7 +37,7 @@ WE will be using Cyclistic's historical trip data to analyze and identify trends
 *  Data does not include personally identifiable information.
 *  External factors like weather or city events are not considered in the dataset.
 
-## Process - Clean & Prepare the Data
+## Process - Clean & Ready the Data
 Due to limitations of Excel/ google sheet to handle the large amount of data, We have used BigQuery to combine the various datasets into one dataset and clean it.
 
 #### Data Merging
